@@ -1,3 +1,17 @@
-<p>
-  user-mgmt works!
-</p>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="list-group">
+        <a  routerLink="/UserManagement/List" class="list-group-item list-group-item-action">User List</a>
+        <a  routerLink="/UserManagement/Detail" class="list-group-item list-group-item-action">My Details</a>
+        <a  routerLink="a" class="list-group-item list-group-item-action">Billing Info</a>
+        <a  routerLink="/SingUP" class="list-group-item list-group-item-action">Add New User</a>
+        <a  routerLink="a" class="list-group-item list-group-item-action" disabled>My Notifications</a>
+      </div>
+    </div>
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>

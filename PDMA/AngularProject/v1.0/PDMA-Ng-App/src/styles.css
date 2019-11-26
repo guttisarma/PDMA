@@ -10,5 +10,13 @@
     color:rgb(0, 86, 179);; 
 } */
 a,.table_header_text{
-    color: rgb(160, 58, 106);
+    color: rgb(229, 236, 245);
 }
+.list-group-item>list-group-item-action:hover{
+    background-color: rgb(17, 7, 107);
+}
+button.list-group-item-action{
+    background-color: rgb(152, 173, 145);
+    color: rgb(229, 236, 245);
+}
+

@@ -8,9 +8,10 @@ import { UserMgmtComponent } from './user-mgmt/user-mgmt.component';
 const routes: Routes = [
 
   {
-    path: 'UserManagement', component: UserMgmtComponent, children: [
-      { path: 'detail/:id', component: UserListComponent },
-      { path: 'heroes', component: UserDetailComponent }
+    path: 'UserManagement', component: UserMgmtComponent,
+    children: [
+      { path: 'Detail', component: UserDetailComponent },
+      { path: 'List', component: UserListComponent }
     ]
   }
 
