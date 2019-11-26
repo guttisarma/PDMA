@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+
+.navbar{
+    background-color: rgb(152, 173, 145);
+}
+.table_header{
+    background-color: rgb(152, 173, 145);
+}
+/* .table_header_text{
+    color:rgb(0, 86, 179);; 
+} */
+a,.table_header_text{
+    color: rgb(160, 58, 106);
+}

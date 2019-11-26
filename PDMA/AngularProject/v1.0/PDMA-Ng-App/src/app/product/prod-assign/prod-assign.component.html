@@ -22,14 +22,14 @@
   <div class="row" *ngIf="lsselectproduct.length>0">
     <div class="card">
       <table class="table">
-        <thead>
+        <thead class="table_header">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Name</th>
-            <th scope="col">Code</th>
-            <th scope="col">Total Quantity</th>
-            <th scope="col">Allocated Quantity</th>
-            <th scope="col">
+            <th class="table_header_text" scope="col">#</th>
+            <th class="table_header_text" scope="col">Name</th>
+            <th class="table_header_text" scope="col">Code</th>
+            <th class="table_header_text" scope="col">Total Quantity</th>
+            <th class="table_header_text" scope="col">Allocated Quantity</th>
+            <th class="table_header_text" scope="col">
               <span *ngIf="selectuser===undefined">Created</span>
               <span *ngIf="selectuser!==undefined">User Code</span>
             </th>
@@ -65,14 +65,14 @@
   <div class="row">
     <div class="card" *ngIf="lsselectproduct.length==0">
       <table class="table">
-        <thead>
+        <thead class="table_header">
           <tr>
-            <th scope="col">#</th>
-            <th scope="col">Code</th>
-            <th scope="col">No of Products</th>
-            <th scope="col">Assigned To</th>
-            <th scope="col">Created On</th>
-            <th scope="col">
+            <th class="table_header_text" scope="col">#</th>
+            <th class="table_header_text" scope="col">Code</th>
+            <th class="table_header_text" scope="col">No of Products</th>
+            <th class="table_header_text" scope="col">Assigned To</th>
+            <th class="table_header_text" scope="col">Created On</th>
+            <th class="table_header_text" scope="col">
               Transcaton Approved
             </th>
 
